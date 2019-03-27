@@ -61,6 +61,19 @@
 - 支持多集群
 - 支持以太网以及RDMA网络
 
+#### hive 训练数据集管理系统
+
+- 训练集多版本管理。对接aws s3 阿里云 oss等后端存储
+- 用户侧实现类 git 操作接口
+- 实现类似aws IAM 的权限管理
+
+#### kubernetes csi 实现训练数据cachefs
+
+- 基于fuse 实现文件io，mount
+- 实现 csi 接口，训练任务通过 pv pvc 挂载训练集
+- cachefs 实现本地磁盘cache，memory cache， p2pcache
+- 对接 s3 oss作为后端
+
 #### RKE 功能扩展
 
 - [RKE](https://github.com/rancher/rke)对接[Vault](https://www.vaultproject.io/)实现k8s集群证书的统一管理
