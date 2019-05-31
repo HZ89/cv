@@ -6,35 +6,30 @@
 
 - 朱慧鹏
 - 1989-06 ～ Now
-- 大专/商丘师范学院(2008.09~2011.07)
 - 工作年限: 8年
 - Github: [HZ89](https://github.com/HZ89)
-- 期望职位: golang dev/Devops Engineer/SRE
+- 期望职位: infrastructure develop/Devops Engineer/SRE
 - 期望城市: 上海 北京
-- Wechat: 371852029
 - Email: wcg6121@gmail.com
 - 目前状态: 在职
 
 ## 技能清单
 
-所列出的均为熟练使用的技能
-
 - 开发语言: Golang,Python
 - 版本管理: Git（gitlab、github、gitea）
-- CI/CD: [Gitea](https://github.com/go-gitea/gitea)+[Drone](https://github.com/drone/drone),[Gitlab-ci](https://about.gitlab.com/features/gitlab-ci-cd/),Jenkins
-- 数据库: MySQL
+- CI/CD: [Drone](https://github.com/drone/drone)  Jenkins
+- 数据库: MySQL,TiDB,TiKV,Codis,Redis
 - 方法论: Devops
 - IaC: [Terraform](https://github.com/hashicorp/terraform) [RKE](https://github.com/rancher/rke)
-- Automation: Ansible
 - Infar: Kubernetes, OVS/OVN, Fannel, Calico, RoCE, IB, IPoIB
 - Container Tech: RKT, Docker
-- Ops: LNMP, Linux Kernel Parameter, MySQL, CEPH
+- Ops: LNMP, Linux Kernel Parameter, MySQL, CEPH, docker, kubernetes
 - OS: Centos 6/7, CoreOS, Ubuntu 16.04
 - cloud platform: aws alicloud 使用各平台的golang sdk开发。熟悉各平台的网络特征，用户管理体系，混合云设计
 
 ## 项目经历
 
-有完整实施的项目，时间倒序排列
+以下为本人完整实施的项目，时间按倒序排列
 
 ### Momenta
 
@@ -52,31 +47,29 @@
 
 #### goslurm 深度学习调度平台
 
-- CLI兼容[slurm](https://www.schedmd.com/) 降低传统HPC生态用户迁移成本
+- CLI兼容[slurm](https://www.schedmd.com/) 降低了传统HPC生态用户迁移成本
 - 基于k8s调度任务,使用自定义scheduler
 - 兼容 `caffe2` `tensorflow` `pytorch` 常见框架 使用对应k8s的operator
-- 云上环境与云下环境混合部署
-- 云上环境自动扩缩容
+- 云上环境与云下环境混合部署，多集群调度
+- 云上环境自动扩缩容 aws 使用ASG
 - 集群自动部署（terraform+rke）
-- 支持多集群
-- 支持以太网以及RDMA网络
+- 支持以太网以及RDMA网络异构网络环境调度
 
 #### hive 训练数据集管理系统
 
 - 训练集多版本管理。对接aws s3 阿里云 oss等后端存储
 - 用户侧实现类 git 操作接口
-- 实现类似aws IAM 的权限管理
+- 支持训练数据集版本管理
 
-#### kubernetes csi 实现训练数据cachefs
+#### 用于深度学习的分布式文件系统cachefs
 
-- 基于fuse 实现文件io，mount
-- 实现 csi 接口，训练任务通过 pv pvc 挂载训练集
-- cachefs 实现本地磁盘cache，memory cache， p2pcache
-- 对接 s3 oss作为后端
-
-#### RKE 功能扩展
-
-- [RKE](https://github.com/rancher/rke)对接[Vault](https://www.vaultproject.io/)实现k8s集群证书的统一管理
+- memory，ssd disk，server side memory cache， 多级缓存
+- 针对多nodes训练场景实现p2p cache
+- 存储层基于 `facebook haystack` 架构
+- 存储层 master 通过raft 实现HA
+- 访问接口层提供GRPC，HTTP API 以及使用fuse 提供POSIX接口
+- fuse 实现支持多存储层 aws s3， 阿里云oss，ceph，以及haystack
+- 实现 kubernetes csi 接口，训练任务通过 pv pvc 挂载训练集 
 
 ### 上海游族
 
@@ -143,7 +136,6 @@
     - 总结: 从零开始的小公司，接触到运维的方方面面（IDC网络建设，IDC选择，服务器硬件等全部运维相关的软硬件工作），开拓眼界。
 - 第九城市
     - 时间: 2010.05~2011.05
-    - 职位: NBU1部运维
+    - 职位: NBU1部运维(实习)
     - 职责: 负责NBU1部的社交网站以及社交游戏运维
-    - 离职原因: 九城大裁员
     - 总结: 一切的起点。九城给了我一个相对完整的体系。为我第二份工作提供了一个参考架构和各种解决方案。
