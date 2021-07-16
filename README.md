@@ -6,12 +6,13 @@
 
 - 朱慧鹏
 - 1989-06 ～ Now
-- 工作年限: 8年
+- 工作年限: 10年
 - Github: [HZ89](https://github.com/HZ89)
 - 期望职位: infrastructure develop/Devops Engineer/SRE
 - 期望城市: 上海 北京
 - Email: wcg6121@gmail.com
 - 目前状态: 在职
+- 学历：大专
 
 ## 技能清单
 
@@ -30,6 +31,18 @@
 ## 项目经历
 
 以下为本人完整实施的项目，时间按倒序排列
+
+### Tencent
+
+- 腾讯云[EKS](https://cloud.tencent.com/document/product/457/39804)
+  - 负责 EKS 1.0 ~ 1.5 ~ 2.0 架构设计以及核心代码开发
+  - 负责 项目流水线建设，开发规范实施
+
+- EKS OS 开发
+  - 为EKS场景特殊定制的Linux发行版，着力提升启动速度
+
+- CSI on nodeless kubernetes
+  - 由于CSI设计中强依赖node的特性，在eks这种nodeless k8s中无法使用。设计了一种兼容现有CSI用户接口的实现。
 
 ### Momenta
 
@@ -110,10 +123,15 @@
 - 负责基于`zabbix`设计一个监控系统监控173所有服务器以及中间件，数据库的状态，以及报警
 - 基于`zabbix`定制了报警行为，报警模式。以`python`开发了一套`zabbix`的报警脚本库。使用`MySQL-TokuDB` 作为存储。由于当时zabbix当时不能处理大量数据，对监控系统依据业务进行拆分，然后封装一个统一接口对外提供服务
 
-## 工作经历(2010.05~now)
+## 工作经历
+
+- Tencent
+  - 时间：2019-08～Now
+  - 职位：后台开发工程师 3.2
+  - 指责：负责EKS产品架构以及开发工作
 
 - Momenta（AI无人驾驶）
-    - 时间: 2018-2-22~now
+    - 时间: 2018-2-22~2019-08
     - 职位: 开发工程师
     - 职责: 负责devops流程的保障与技术支持以及深度学习训练平台开发
 - 上海游族
