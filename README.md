@@ -37,6 +37,7 @@
 - 腾讯云[EKS](https://cloud.tencent.com/document/product/457/39804)
   - 负责 EKS 1.0 ~ 1.5 ~ 2.0 架构设计以及核心代码开发
   - 负责 项目流水线建设，开发规范实施
+  - 负责 windows容器
 
 - EKS OS 开发
   - 为EKS场景特殊定制的Linux发行版，着力提升启动速度
