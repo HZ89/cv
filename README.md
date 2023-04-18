@@ -1,32 +1,28 @@
-# 朱慧鹏的简历
+# 赵晨阳的简历
 
-- Topic: Devops Golang kubernetes 容器 运维开发 自动化 深度学习训练平台
+- Topic: Docker Python  Django Kubernetes DRF 容器 运维开发 自动化 
 
 ## 关于我
 
-- 朱慧鹏
-- 1989-06 ～ Now
-- 工作年限: 10年
-- Github: [HZ89](https://github.com/HZ89)
-- 期望职位: infrastructure develop/Devops Engineer/SRE
-- 期望城市: 上海 北京
-- Email: wcg6121@gmail.com
-- 目前状态: 在职
-- 学历：大专
+- 赵晨阳
+- 2016-10 ～ Now
+- 工作年限: 5年
+- 期望职位: develop/Devops Engineer/SRE Engineer/kubenetes Engineer/DRF
+- 期望城市: 上海 杭州
+- Email: zhaochenyang_zcy1@163.com
+- 目前状态: 离职
+- 学历：大专 自学本科（学习中）
 
 ## 技能清单
 
-- 开发语言: Golang,Python
-- 版本管理: Git（gitlab、github、gitea）
+- 开发语言: shell，Python
+- 版本管理: Git（gitlab、github、gitee）
 - CI/CD: [Drone](https://github.com/drone/drone)  Jenkins
-- 数据库: MySQL,TiDB,TiKV,Codis,Redis
+- 数据库: MySQL,Redis
 - 方法论: Devops
-- IaC: [Terraform](https://github.com/hashicorp/terraform) [RKE](https://github.com/rancher/rke)
-- Infar: Kubernetes, OVS/OVN, Fannel, Calico, RoCE, IB, IPoIB
-- Container Tech: RKT, Docker
+- 开源技术: Kubernetes, Fannel, Calico，Prometheus，Zookeeper，Docker，ansible
 - Ops: LNMP, Linux Kernel Parameter, MySQL, CEPH, docker, kubernetes
 - OS: Centos 6/7, CoreOS, Ubuntu 16.04
-- cloud platform: aws alicloud 使用各平台的golang sdk开发。熟悉各平台的网络特征，用户管理体系，混合云设计
 
 ## 项目经历
 
