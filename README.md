@@ -13,7 +13,7 @@
 
 ## Skils
 
-- Programming language: Golang,Python, Rust
+- Programming language: Golang,Python, Rust,
 - Version control: Git（gitlab、github、gitea）
 - CI/CD: [Drone](https://github.com/drone/drone)  Jenkins
 - Database: MySQL,TiDB,TiKV,Codis,Redis
@@ -38,14 +38,20 @@
 
 - start and end time: 12/2022 ~ now
 - Position: SRE(2.2)
-- 
+- Responsibility: Maintaining the stability of international e-commerce operations.
+- Detail:
+  - Setting up SLIs (Service Level Indicators) and SLOs (Service Level Objectives), and configuring alerting rules based on the established SLOs.
+  - Analyzing weekly SLI reports and providing recommendations to the development team for improving SLIs.
+  - Supporting Black Friday promotions, determining on-duty schedules, and establishing team collaboration methods.
 
 ### Tencent Cloud
 
 - Start and end time: 08/2019 ~ 12/2022
 - Position: Senior backend developer (T10)
 - Responsibility: Develop and maintain TKE Serverless cluster
-- Detail: Responsible for the development of program framework, formulation of development specifications, code review, establishment of operation and maintenance specifications, etc.
+- Detail:
+  - Responsible for designing and implementing the architectural evolution of TKE Serverless product versions 1.0, 1.5, and 2.0.
+  - Responsible for designing and implementing the TKE Serverless Windows container product.
 
 ### Momenta
 
