@@ -6,7 +6,7 @@
 
 - 朱慧鹏
 - 1989-06 ～ Now
-- 工作年限: 10年
+- 工作年限: 12年
 - Github: [HZ89](https://github.com/HZ89)
 - 期望职位: infrastructure develop/Devops Engineer/SRE
 - 期望城市: 上海 北京

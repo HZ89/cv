@@ -52,6 +52,7 @@
 - Detail:
   - Responsible for designing and implementing the architectural evolution of TKE Serverless product versions 1.0, 1.5, and 2.0.
   - Responsible for designing and implementing the TKE Serverless Windows container product.
+  - Developing a customized TKS Serverless-specific Linux distribution to optimize cold start speed.
 
 ### Momenta
 
