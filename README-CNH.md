@@ -9,7 +9,7 @@
 - 工作年限: 12年
 - Github: [HZ89](https://github.com/HZ89)
 - 期望职位: infrastructure develop/Devops Engineer/SRE
-- 期望城市: 上海 北京
+- 期望城市: 新加坡
 - Email: wcg6121@gmail.com
 - 目前状态: 在职
 - 学历：大专
