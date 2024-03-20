@@ -59,14 +59,19 @@
 - Start and end time: 02/2018 ~ 08-2019
 - Position: Infrastructure developer
 - Responsibility: Design and implement a machine learning platform
-- Detail: Develop Goslurm scheduling platform based on kubernetes.
+- Detail:
+  - Designed and developed the `go-slurm` deep learning platform, supporting caffe2, tensorflow, and pytorch frameworks for execution in MPI mode, with support for hybrid cloud deployment.
+  - Designed and developed `cachefs`, a distributed storage system, optimizing file read performance for AI model training scenarios through memory, local NVMe, and client cache clustering.
+
 
 ### YOOZOO
 
 - Start and end time: 03/2015 ~ 01-2018
 - Position: devops
 - Responsibility: Promotion of new technology, Paas platform development.
-- Detail: Promote container technology and develop UPAAS platform based on container technology.
+- Detail: 
+  - Implemented cronjob management and remote task orchestration based on HashiCorp Serf
+  - Designed and implemented a CMDB to manage and maintain all company resources, services, and servers in a tree-like structure
 
 ### 17173.com
 
